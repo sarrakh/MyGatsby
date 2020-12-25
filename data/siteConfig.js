@@ -1,26 +1,26 @@
 module.exports = {
-  siteTitle: 'Hi! I\'m Francisco!',
+  siteTitle: 'Salut! Je suis Sarra KHIARI ',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Francisco Santos',
-  twitterUsername: '_franciscodf',
-  githubUsername: 'santosfrancisco',
-  authorAvatar: '/images/avatar.jpeg',
-  authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-    In 2012 I started working as a support technician and I approached the developers.
-    In 2015, I started to study C # and started to contribute with the team giving maintenance in an application in C # and .NET. <br />
-    I currently work as a frontend developer and mainly work with <strong>Javascript, NodeJS e React.</strong>`,
+  authorName: 'KHIARI Sarra',
+  
+  githubUsername: 'sarrakh',
+  authorAvatar: '/images/cc.jpg',
+   authorDescription: `Étudiante en troisième année cycle d’ingénieur à Institut supérieur d’informatique ISI - Spécialité Ingénierie du Développement du Logiciel `,
+ Formation1:'<strong>Troisième année cycle d’ingénieur - spécialité IDL(Ingénierie du Développement du Logiciels)</strong><br> Institut Supérieur d’Informatique de Tunis <br> En Cours<br><br><strong>Licence appliquée en Technologies de l’Informatique - spécialité DSI (Développement des Systèmes d’Information)</strong><br> Institut Supérieur des Etudes Technologiques de Beja<br> 2014 - 2017  <br><br><strong>Diplôme de Baccalauréat "Science de l’Informatique" </strong><br> Lycée Imtiez <br>2013 - 2014',
+  cpt:'Membre de club SecuriNets à l’institut supérieur d’informatique ( ISI Ariana )',
+  
   skills: [
     {
-      name: 'HTML',
+      name: 'AngularJS',
       level: 70
     },
     {
-      name: 'CSS',
+      name: 'SpringBoot',
       level: 60
     },
     {
-      name: 'Javascript',
+      name: 'JAVA',
       level: 50
     },
     {
@@ -28,11 +28,11 @@ module.exports = {
       level: 40
     },
     {
-      name: 'React',
+      name: 'Android',
       level: 60
     },
     {
-      name: 'Git',
+      name: 'PHP',
       level: 70
     },
     /* more skills here */
@@ -40,64 +40,49 @@ module.exports = {
   jobs: [
     /* more jobs here */
     {
-      company: "Gympass",
+      company: "Sotetel",
       begin: {
-        month: 'sep',
-        year: '2019'
+        
+        year: '2020'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I am part of the Corporate team, responsible for the development and maintenance of the employee management platform, giving more and more autonomy to partner companies."
-  
+      duration: "Août 2020 - Septembre 2020",
+	  
+      occupation: "Stagaire",
+      description: "Conception et développement d’une application WEB pour la gestion des réclamations"
     },  {
-      company: "Lendico",
+      company: "Ministère des Affaires Sociales",
       begin: {
-        month: 'apr',
-        year: '2018'
+        
+        year: '2017'
       },
-      duration: null,
-      occupation: "Frontend developer",
-      description: "I integrate the Frontend team responsible for developing and maintaining the online lending platform."
-  
+      duration: "Janvier 2017 – Mai 2017",
+      occupation: "Stage de fin d’études",
+      description: "Conception et développement d’une application WEB pour la gestion des concours internes et externes"
     }, {
-      company: "Anapro",
+      company: "Statistiques Tunisie",
       begin: {
-        month: 'dec',
-        year: '2016'
+       
+        year: '2017'
       },
-      duration: '1 yr e 5 mos',
-      occupation: "Fullstack developer",
-      description: "Development and maintenance, corrective and preventive, of web applications for the real estate market."
+      duration: ' Février 2017',
+      occupation: "Stage de Perfectionnement",
+      description: "Développement de la maquette de saisie de l’enquête Tic auprès des ménage "
     }, {
-      company: "Anapro",
+      company: "COFICAB Tunisie",
       begin: {
-        month: 'set',
-        year: '2012'
+        
+        year: '2015'
       },
-      duration: '4 yrs e 3 mos',
-      occupation: "Support Technician",
-      description: "Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool."
-  
+      duration: 'Janvier 2015 – Février 2015',
+      occupation: "Stage d’Initiation"
+      
     },
   ],
-  portifolio: [
-    {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
-    },
-    {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
-    },
-    /* more portifolio items here */
-  ],
+ 
   social: {
-    twitter: "https://twitter.com/_franciscodf",
-    linkedin: "https://www.linkedin.com/in/santos-francisco",
-    github: "https://github.com/santosfrancisco",
-    email: "yoshi.df@gmail.com"
+    linkedin: "https://www.linkedin.com/in/sarra-khiari/",
+    github: "https://github.com/sarrakh",
+    email: "sarrakhiari26@gmail.com"
   },
   siteUrl: 'https://santosfrancisco.github.io/gatsbystarter-cv',
   pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
@@ -113,10 +98,6 @@ module.exports = {
     {
       label: 'Home',
       url: '/',
-    },
-    {
-      label: 'Portifolio',
-      url: '/portifolio',
     }
   ]
 }

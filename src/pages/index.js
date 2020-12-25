@@ -70,16 +70,23 @@ const Home = ({ className, location }) => {
           </Row>
           <Row>
             <Col xs={4} sm={4}>
-              <About title='About' text={siteConfig.authorDescription}/>
+              <About title='À propos' text={siteConfig.authorDescription}/>
             </Col>
             <Col xs={4} sm={4}>
-              <Skills title='Skills' skills={siteConfig.skills} />
+              <Skills title='Compétences' skills={siteConfig.skills} />
             </Col>
+			
           </Row>
           <Separator />
           <Timeline />
           <Separator />
-          {siteConfig.githubUsername && <Repositories />}
+          <Row>
+		  <About title='FORMATION' text={siteConfig.Formation1} />
+		  </Row>
+		  <Separator />
+		  <Row>
+		  <About title='COMPÉTENCES ORGANISATIONNELLES' text={siteConfig.cpt} />
+		  </Row>
         </Container>
       </Wrapper>
     </Layout>
