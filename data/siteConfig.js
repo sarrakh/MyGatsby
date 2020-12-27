@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Salut! Je suis Sarra KHIARI ',
+  siteTitle: 'Salut! Je suis Sarra  ',
   siteDescription: `Create your online curriculum in just a few minutes with this starter`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'KHIARI Sarra',
